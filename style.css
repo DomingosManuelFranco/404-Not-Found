@@ -1,0 +1,72 @@
+#title {
+    display: flex;
+    justify-content: start;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+} 
+ 
+ .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+#scare {
+    grid-column: 1;
+    width: 50%;
+    float: left;
+
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+}
+
+#textArea {
+  grid-column: 2;
+  float: right;  
+    
+}
+
+#header {
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+font-size: 65px;
+line-height: 5rem;
+}
+
+p {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    width: 381px;
+    height: 108px;
+}
+
+#botao {
+    width: 30%;
+    height: 20%;
+    left: 40%;
+    top: 20%;
+    background: #333333;
+
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+footer {
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
